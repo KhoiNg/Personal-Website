@@ -1,0 +1,11 @@
+/* for Date in Writing */
+#body #body_heading .small_date {
+    font-size: 20px;
+    font-weight: normal;
+}
+/**/
+
+/* for indent Paragraph */
+#body #body_inside p {
+    text-indent: 40px;
+}

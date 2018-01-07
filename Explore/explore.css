@@ -1,0 +1,91 @@
+/* general */
+html {
+    width: 100%;
+    height: 100%;
+
+    font-family: "Courier New", Courier, monospace;
+    font-size: 18px;
+    color:white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+
+    background-color: black;
+}
+/**/
+
+/* cmd */
+#cmd {
+    margin: 15px;
+    min-width: 720px;
+    max-width: 960px;
+}
+
+    /* output */
+    #output {
+    }
+
+        /* extra format in output */
+
+            /* tab */
+            .tab_in {
+                margin-left: 40px;
+            }
+            .tab_in_extra {
+                margin-left: 80px;
+            }
+            /**/
+
+            /* special link */
+            #cmd a {
+                color: #00ff00;
+            }
+            #cmd a:visited {
+                color: #00ff00;
+            }
+            #cmd a:hover {
+                color: #5CD6D6;
+            }
+            /**/
+
+            /* help cmd*/
+            #output #table_help {
+                margin: 10px 0px 10px 40px;
+            }
+
+                #output #table_help tr td{
+                    width: 300px;
+                    vertical-align: top;
+                    padding: 3px 0px;
+                }
+            /**/
+
+            /* ls cmd*/
+            #output #list_ls {
+                list-style: none;
+            }
+            /**/
+
+        /**/
+
+    /**/
+
+    /* input */
+    #input {
+        font-family: "Courier New", Courier, monospace;
+        font-size: 18px;
+
+        color: white;
+        background-color: black;
+        width: 700px;
+
+        outline: none;
+        resize:none;
+        border:none;
+    }
+    /**/
+
+/**/

@@ -1,0 +1,78 @@
+/* for tab in and indent */
+    #body #body_inside .tab_in {
+        margin-left: 40px;
+    }
+
+    #body #body_inside .tab_in_extra {
+        margin-left: 80px;
+    }
+
+    #body #body_inside .indent {
+        text-indent: 40px;
+    }
+/**/
+
+/* for about part */
+        #body #body_inside #table_about #table_about_left {
+            vertical-align: center;
+        }
+        #body #body_inside #table_about #table_about_left #avatar {
+            width: 200px;
+
+            padding: 10px;
+            border: 1px solid #f2f3f4;
+            margin: 10px 20px 10px 10px;
+        }
+
+        #body #body_inside #table_about #table_about_right {
+            vertical-align: top;
+        }
+
+        #body #body_inside #table_about #table_about_right #table_about_right_quote_bar {
+            background-color:#979797;
+            height: 1px;
+            width: 200px;
+            margin-top:10px;
+        }
+
+        #body #body_inside #table_about #table_about_right #table_about_right_quote {
+            font-size: 17px;
+        }
+/**/
+
+
+/* for skills table */
+    #body #body_inside #table_skills tr td{
+        vertical-align: top;
+    }
+
+    #body #body_inside #table_skills tr td ul {
+        margin-top: 5px;
+    }
+/**/
+
+/* for course table */
+    #body #body_inside #table_course tr td {
+        vertical-align: top;
+        padding-right: 25px;
+    }
+
+    #body #body_inside #table_course tr td ul{
+        margin-top: 5px;
+    }
+/**/
+
+/* for Note - special effect for a link */
+    #body #body_inside a.a_effect  {
+        color: #5085B5;
+    }
+
+    #body #body_inside a.a_effect:visited {
+        color: #5085B5;
+    }
+
+    #body #body_inside a.a_effect:hover {
+        color: #a5c29a;
+    }
+/**/
+

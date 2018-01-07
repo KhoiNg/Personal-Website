@@ -1,0 +1,51 @@
+/* blog table */
+#body_inside table {
+    border-collapse: collapse;
+}
+
+#body_inside table tr td {
+    border: 1px solid #979797;
+    text-align: left;
+    vertical-align: top;
+}
+
+    /* left side - date */
+    #body_inside table tr td:first-child {
+        width: 150px;
+        padding: 30px 20px;
+    }
+    /**/
+
+    /* right side - heading */
+    #body_inside table tr td:nth-child(2) {
+        width: 650px;
+        padding: 30px 20px 30px 40px;
+
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    #body_inside table tr td:nth-child(2) a{
+        color: #5085B5;
+    }
+
+    #body_inside table tr td:nth-child(2) a:visited{
+        color: #5085B5;
+    }
+
+    #body_inside table tr td:nth-child(2) a:hover{
+        color: #a5c29a;
+    }
+    /**/
+
+    #body_inside table tr:nth-child(even) {
+        background-color: #eeeeee;
+    }
+/**/
+
+/* for Date in Writing */
+#body #body_heading .small_date {
+    font-size: 20px;
+    font-weight: normal;
+}
+/**/

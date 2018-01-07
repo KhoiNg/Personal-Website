@@ -1,0 +1,58 @@
+/* for tab in and indent */
+    #body #body_inside .tab_in {
+        margin-left: 40px;
+    }
+
+    #body #body_inside .tab_in_extra {
+        margin-left: 80px;
+    }
+
+    #body #body_inside .indent {
+        text-indent: 40px;
+    }
+
+    #body #body_inside .text_bigger {
+        font-size: 25px;
+    }
+/**/
+
+/* special effect for a link */
+    #body #body_inside a.a_effect  {
+        color: #5085B5;
+    }
+
+    #body #body_inside a.a_effect:visited {
+        color: #5085B5;
+    }
+
+    #body #body_inside a.a_effect:hover {
+        color: #a5c29a;
+    }
+/**/
+
+
+/* for Projects Table in general */
+    #body_inside table tr td {
+        vertical-align: top;
+    }
+
+    #body_inside table tr td:first-child {
+        width: 230px;
+        padding: 30px 20px;
+    }
+
+    #body_inside table tr td:first-child img{
+        width: 200px;
+
+        margin: 10px;
+        border: 2px solid #f2f3f4;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    #body_inside table tr td:nth-child(2) {
+        width: 600px;
+        padding: 30px 20px;
+    }
+
+/**/
